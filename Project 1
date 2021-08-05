@@ -1,0 +1,15 @@
+radius = float(input("Input the radius of the circle : "))
+printf("The area is " +str(3.14*radius**2))
+
+
+
+
+
+
+
+filename=input("Input file name : ")
+fileexten = filename .split(".")
+extension = { "py" : " python" , "java" :"java" ,"txt" : "text " ,"cpp" : "C++"}
+print("Extension is "+repr(fileexten[-1]))
+x = extension[repre(fileexten[-1])]
+print(x)
